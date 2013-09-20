@@ -2,5 +2,7 @@ name: env
 
 mem: 256M
 hooks:
-  pre-staging:
+  pre-running:
   - bash scripts/nodejs-0.10.sh
+framework:
+  runtime: node
