@@ -1,3 +1,6 @@
 name: env
 
 mem: 256M
+hooks:
+  pre-staging:
+  - bash scripts/nodejs-0.10.sh
